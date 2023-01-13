@@ -12,7 +12,7 @@ body {
   padding: 30px;
   background: #ffffff;
   border-radius: 5px;
-  width: 870px;
+  width: 46vw;
   margin: 0 auto;
   margin-top: 30px;
 }
@@ -22,7 +22,7 @@ hr {
 /* Header Section Start */
 .header-main {
   background: #562eff;
-  padding: 30px;
+  padding: 30px 0;
 }
 .header-all {
   width: 46vw;
@@ -245,6 +245,14 @@ hr {
 
 /* Media quarry mobile device */
 @media screen and (max-width: 688px) {
+  /* header section  */
+  .header-all {
+    width: 95vw;
+    margin: 0 auto;
+  }
+  .nav-bar ul {
+    display: none;
+  }
   /* player section */
   .players {
     grid-template-columns: repeat(1, 1fr);
@@ -271,6 +279,10 @@ hr {
 }
 /* Media quarry mobile device */
 @media screen and (min-width: 689px) and (max-width: 992px) {
+  .header-all {
+    width: 95vw;
+    margin: 0 auto;
+  }
   .container {
     width: 95vw;
     margin: 10px auto;
