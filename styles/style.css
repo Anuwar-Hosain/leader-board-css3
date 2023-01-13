@@ -20,6 +20,55 @@ hr {
   border: 1px solid #d1d1d1;
 }
 /* Header Section Start */
+.header-main {
+  background: #562eff;
+  padding: 30px;
+}
+.header-all {
+  width: 46vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo img {
+  width: 40px;
+}
+.logo samp {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #ffffff;
+}
+.nav-bar {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.nav-bar ul {
+  display: flex;
+  gap: 20px;
+}
+.nav-bar ul > li {
+  list-style: none;
+}
+.nav-bar ul > li a {
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+.profile img {
+  cursor: pointer;
+}
+
 /* Header Section end */
 /* -----------------------------------
             main section start
